@@ -24,7 +24,8 @@ for ( int i = 0 ; i < 2 ; i ++ )
 	driver.get(URL);
 	Thread.sleep(2000);
 	driver.close();
-		
+driver.quit()	;
+
 }
 }
 }
