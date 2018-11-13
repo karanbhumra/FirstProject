@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.sql.Driver;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
@@ -55,6 +56,7 @@ public void WriteExcel () throws IOException
 	}
 	FileOutputStream fos = new FileOutputStream("D:\\Book1.xlsx");
 	wb.write(fos);
+ System.out.println("sdsa");
 	
 }
 
